@@ -57,7 +57,7 @@ face_data = face_data.reshape((face_data.shape[0], -1))
 print(face_data.shape)
 
 #Save this data into file system
-np.save(dataset_path + file_name + '..npy', face_data)
+np.save(dataset_path + file_name + '.npy', face_data)
 
 cap.release()
 cv2.destroyAllWindows()
